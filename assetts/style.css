@@ -1,5 +1,25 @@
 
+.bckgrnd{
+    background-image: url(images/folk-pattern-black.png);
+    /* background-color: aqua; */
+    /* 
+    may need to add some height to make this last entire page length...
+    ...should be a better alternative
+    */
+    height: 1200px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #777777;
+}
+.foot{
+    font-size: medium;
+    background-color: grey;
+    color: ivory;
+}
+.main-content{
+    background-color: lightgray;
 
-
+}
 /* reserve H1 for my name at top of page? */
 /* reserve H3 for colored tabs? */
