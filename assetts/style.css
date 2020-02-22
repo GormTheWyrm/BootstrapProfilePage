@@ -1,3 +1,4 @@
+/* CREDIT: Background pattern from Toptal Subtle Patterns  */
 
 .bckgrnd{
     background-image: url(images/folk-pattern-black.png);
@@ -23,3 +24,7 @@ body{
 }
 /* reserve H1 for my name at top of page? */
 /* reserve H3 for colored tabs? */
+/* fiddle with card title... */
+h3{
+    /* fix position and background */
+}
