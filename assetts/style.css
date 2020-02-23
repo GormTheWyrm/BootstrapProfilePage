@@ -31,13 +31,7 @@ h3{
 h1, h2, h3, h4, h5 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-hr{
-    /* border-width: 8px; */
-    /* color: #777777; */
-    /* margin: 0px; */
-    border: 2px solid #777777;
-    width: auto;
-}
+
 .foot{
     font-size: small;
     background-color: grey;
@@ -94,3 +88,16 @@ a:link, a:visited {
         float: left; */
     
     }
+ 
+    
+    hr{
+        /* text-decoration: none; */
+    font-size: small;
+    font-weight: 900;
+    width: 900px;
+    size: 3;
+}
+/* #cloak-pic{
+display: inline-block;
+position: relative;
+} */
