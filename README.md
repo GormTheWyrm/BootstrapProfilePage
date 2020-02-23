@@ -1,28 +1,12 @@
-# BasicPortfolio
-A ...basic portfolio ...with Bootstrap
-
-Put in media queries.
+Assignment; create a basic profile on github pages using bootstrap. The pages should be mobile responsive.
 
 
-
+https://gormthewyrm.github.io/BootstrapProfilePage/
 
 
 ...working
 
-6. When you create a website, it's standard practice to code your HTML files before writing any CSS and to write up one HTML file before moving onto the next. Write your HTML semantically, too:
-
-   * If something is a heading, you use a heading tag.
-   * If something is a list, you use an unordered or ordered list tag.
-   * So on and so forth.
-
-7. The content for the `index.html` should be unique to **you**.
-
-   * Write a paragraph or two about yourself. Make it fun, show your personality!
-   * The main logo where it says "Your Name" should say your name. This may make the logo section smaller or wider depending on how long your name is—that is fine and expected.
-   * Add, commit, and push your code to GitHub often, especially when you complete a page.
-
-8. After all of your HTML is written, you can begin styling your pages using the `style.css` file you created.
-
+6. 
    * Be sure to [validate your html](https://validator.w3.org/#validate_by_input).
    * Consult the specs below these instructions for advice on styling your CSS files.
 
