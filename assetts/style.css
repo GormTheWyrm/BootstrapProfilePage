@@ -58,7 +58,10 @@ h1, h2, h3, h4, h5 {
     ...should be a better alternative
     */
     /* height: 1200px; */
-    padding: 45px;
+    padding: 15px;
+    display: flex;
+    min-height: 85vh;
+    flex-direction: column;
 }
 .main-content{
     background-color: #ffffff;
