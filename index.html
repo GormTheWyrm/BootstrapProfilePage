@@ -57,49 +57,94 @@ col-breakpoint(sm,mg,lg,etc)-auto sets column to width of content!
     <div class="container-fluid bckgrnd">
         <!-- This holds entire page except header-->
         <div class="container-lg main-content">
-            <!-- limits content to 960px-->
+            <!-- limits content to 960px, also adds white background-->
             <div class="row">
+                <!-- consider adding a class to change the background color... -->
                 <h2>About Me</h2>
                 <hr>
             </div>
             <div class="row">
-                <div class="col-sm-auto">
+                <div class="col-sm-auto pic-holder">
                     <!--auto resizes 1st column to content!-->
                     <img width="180" height="266" src="assetts/images/cloak.JPG"
                         alt="Picture of meself wearing a beautiful cloak at the Vermont Renfaire">
+                    <!-- I need to acquire a more professional photo -->
                 </div>
                 <div class="col-sm">
-                    <p>
-                        Greetings, and Welcome. <br>
+                    <p class="big-text">
+                        Greetings, and Welcome. 
+                    </p>
+                    <p></p>
                         My name is Geordin Soucie and these are my GitHub Pages.<br>
                         <br>
-                        These three particular pages were an early homework assignment for the University of Richmond
-                        Web Development Bootcamp.
-                        If you are reading this, then the links in the portfolio have not been posted yet.
-                        This assignment was designed to teach me about using bootstrap,
-                        and I have not yet created all of the products in the portfolio.
-                        But fear not, I will get to them soon.
-                        In the meantime, here is some information about myself. <br>
-
-                    </p>
-                    <p>
-                        As you can probably tell, I am highly interested in exploring medieval activities as well as
-                        fantasy world design. On weekends I like to spend time at medieval events such as those hosted by <a
-                        href="https://www.sca.org/" target="_blank">The SCA</a>,
-                    an active society of nonprofit medieval enthusiasts.
+                        Having recently enrolled at the University of Richmond's Web Development Bootcamp,
+                        I am currently leaning towards back end development.
+                        However, my passion lies with narrative. As an aspiring digital creator I spend much of my free
+                        time
+                        studying game design, narrative structure, and historical societies.
+                        <br> <br>
+                        As you can probably tell, I am a medieval enthusiast who likes to participate in various
+                        medieval activities such as the events run by the Society of Creative Anachronism.
+                        Unsurprisingly, I am also a huge fan of medieval fantasy.
 
                     </p>
                 </div>
                 <div class="row">
-                    <p>
-                        My other hobbies include reading, hiking, 3D modeling and watching educational videos on
-                        YouTube.
-                        I am also working on a medieval fantasy idea that may one day become an epic novel.
-                    </p>
+
+                    <div class="collumn-md"></div>
                 </div>
+                <p>
+                    These three particular pages were an early homework assignment for the University of Richmond
+                    Web Development Bootcamp.
+                    If you are reading this, then I am still in the bootcmap program and have not yet created all of the
+                    products in the portfolio.
+                    But fear not, I will get to them soon.
+                    In the meantime, here is some information about myself. </p>
+
+                <div class="collumn-md indent-div">
+                    <!-- considerign makign this a new div to add a margin and thus
+                    indent it slightly -->
+
+                    <p>Geordin Soucie Was born in New England, on the eastern coast of the United States of America.
+                        He graduated 10th in his high school class, just missing the top 10% by a single classmate.
+                    </p>
+
+                    <p>In 2014 Geordin Graduated from Clarkson University with a Bachelor's degree in Environmental
+                        Science.
+                        He spent the next four years traveling, working in different locations across the United States.
+                        He has worked for the National Park Service, the Massachusetts Department of Conservation and
+                        Recreation, and Medieval Times LLC.
+                    </p>
+                    <p>He can often be found attending medieval or Sctottish festivals or attending similarly themed
+                        filk, bardic or folk concerts.
+                        He is an active member of the <a href="https://www.sca.org/" target="_blank">Society for
+                            Creative Anachronism</a>,
+                        an nonprofit society of active medieval enthusiasts.</p>
+
+
+                </div>
+
+
+            </div>
+            <div class="row">
+                <p>
+                    My other hobbies include reading, writing, hiking, 3D modeling and watching educational videos on
+                    YouTube. For web development and coding projects, feel free to check out my <a  href="portfolio.html" target="blank"> portfolio page</a>.
+                    For a full list of code related products visit my <a href="https://github.com/GormTheWyrm">GitHub Page</a>.
+                    <!-- should I list a writing sample? -->
+
+                    
+                    <!-- I am also working on a medieval fantasy idea that may one day become an epic novel.
+
+                    <br> <br>
+                    His other hobbies include sailing, rowing, hiking, swordplay, bonfires and carrying
+                    loot on long beachside journeys. I've also been known to pick up the odd novel or poke around
+                    blender. -->
+                </p>
             </div>
         </div>
-        <div class="pusher"></div>
+    </div>
+    <!-- <div class="pusher"></div> -->
     </div>
 
 
@@ -116,15 +161,16 @@ col-breakpoint(sm,mg,lg,etc)-auto sets column to width of content!
     <!-- ***************************************End Body *************** -->
 
 
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-    crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-    crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
 
 </body>
+
 </html>

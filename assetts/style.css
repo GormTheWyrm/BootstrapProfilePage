@@ -11,7 +11,7 @@ h1{ color: #ffffff;
     width: fit-content;
     padding: 15px;
     margin-left: 0px;
-/* reserve H1 for my name at top of page? */
+/* reserve H1 for my name at top of page */
 }
 h2{
 color: #4aaaa5;
@@ -79,9 +79,11 @@ margin: 0px;
     border-bottom: 1px solid;
 }
 
-a:link, a:visited {
+a:link, a:visited, a {
     color: #777777;
+    /* color: #575753; */
     text-decoration: none;
+    font-weight: bold;
 }
 
 .side-img {
@@ -104,3 +106,20 @@ a:link, a:visited {
 display: inline-block;
 position: relative;
 } */
+
+/* I can make h3 into a class instead of dedicating h3 to it... if I want to */
+
+.indent-div{
+    margin: 0px 3vw 0px 3vw;
+}
+.big-text{
+    color: #4aaaa5;
+    font-size: larger;
+    font-weight: bold;
+    /* background-color: linen; */
+    background-size: initial;
+    font-style: oblique;
+}
+.pic-holder{
+    margin-bottom: 15px;
+}
