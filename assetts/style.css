@@ -69,10 +69,11 @@ h1, h2, h3, h4, h5 {
     padding: 15px 35px;
 
 }
-h3{
- /* reserve H3 for colored tabs */
-margin: 0px;
-}
+ /* h3{
+  reserve H3 for colored tabs */
+ /* margin: 0px; 
+ }  */ 
+ 
 .grey-border{
     border-color: #cccccc;
 
@@ -123,3 +124,24 @@ position: relative;
 .pic-holder{
     margin-bottom: 15px;
 }
+.wrap-me{
+
+    /* remove css for h3 when finished */
+    margin-left: 10%;
+    margin-right: 10%;
+}
+/* I should make header centered when small screen...  */
+/* fix flexbox */
+/* check vertical centering on large screens - top links, may need a class */
+/* media queries: nevermind, need to figure out a different way*/
+/* @media only screen and (max-width: 600px) {
+.mylinks{
+
+}
+}
+
+@media only screen and (min-width: 960x) {
+.mylinks{
+
+}
+} */
